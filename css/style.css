@@ -5,3 +5,69 @@
     box-sizing: border-box;
 }
 
+
+
+/* contenitore principale */
+.container {
+    max-width: 768px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+
+
+/* intestazione */
+header {
+    background: #E579E6;
+    height: 80px;
+}
+
+
+
+/* contenuto */
+.hero {
+    height: 300px;
+    background: #E1D67A;
+    margin: 20px 0;
+}
+
+.content {
+    background: #0087FF;
+    padding-bottom: 15px;
+}
+
+.content::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top {
+    height: 60px;
+    background: #ABCFE7;
+    margin-bottom: 15px;
+}
+
+.middle {
+    margin:0 10px;
+    width: 50%;
+}
+
+.left, .right {
+    width: calc(((100% - 50%) / 2) - 10px);
+}
+
+.left, .middle, .right {
+    background: #ABCFE7;
+    float: left;
+    height: 300px;
+}
+
+
+
+/* piè di pagina */
+footer {
+    background: #8801FE;
+    margin-top: 8px;
+    height: 50px;
+}
