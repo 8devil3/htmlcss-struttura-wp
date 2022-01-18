@@ -1,4 +1,5 @@
 /* CSS reset */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,16 +7,16 @@
 }
 
 
-
 /* contenitore principale */
+
 .container {
     max-width: 768px;
     margin: 0 auto;
 }
 
 
-
 /* intestazione */
+
 header {
     background: #E579E6;
     height: 80px;
@@ -23,8 +24,8 @@ header {
 }
 
 
-
 /* contenuto */
+
 .hero {
     height: 300px;
     background: #E1D67A;
@@ -36,7 +37,7 @@ header {
     padding-bottom: 15px;
 }
 
-.content::after{
+.content::after {
     content: "";
     display: table;
     clear: both;
@@ -49,25 +50,28 @@ header {
 }
 
 .middle {
-    margin:0 10px;
+    margin: 0 10px;
     width: 50%;
 }
 
-.left, .right {
+.left,
+.right {
     width: calc(((100% - 50%) / 2) - 10px);
 }
 
-.left, .middle, .right {
+.left,
+.middle,
+.right {
     background: #ABCFE7;
     float: left;
     height: 300px;
 }
 
 
-
 /* piè di pagina */
+
 footer {
     background: #8801FE;
-    margin-top: 8px;
+    margin: 8px 0 20px 0;
     height: 50px;
 }
