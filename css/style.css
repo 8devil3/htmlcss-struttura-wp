@@ -19,7 +19,7 @@
 header {
     background: #E579E6;
     height: 80px;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 
@@ -28,7 +28,7 @@ header {
 .hero {
     height: 300px;
     background: #E1D67A;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .content {
