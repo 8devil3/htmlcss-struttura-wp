@@ -10,7 +10,6 @@
 /* contenitore principale */
 .container {
     max-width: 768px;
-    padding-top: 20px;
     margin: 0 auto;
 }
 
@@ -20,6 +19,7 @@
 header {
     background: #E579E6;
     height: 80px;
+    margin-top: 20px;
 }
 
 
